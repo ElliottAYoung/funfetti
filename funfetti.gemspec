@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = Funfetti::VERSION
   s.authors     = ["ElliottAYoung"]
   s.email       = ["elliott.a.young@gmail.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Funfetti."
-  s.description = "TODO: Description of Funfetti."
+  s.homepage    = "https://github.com/ElliottAYoung/funfetti"
+  s.summary     = "A fun confetti plugin for Rails!"
+  s.description = "A fun confetti plugin for Rails!"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
