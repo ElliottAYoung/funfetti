@@ -1,9 +1,8 @@
 module Funfetti
   class Engine < ::Rails::Engine
     isolate_namespace Funfetti
-    
-    initializer 'funfetti.assets.precompile' do |app|
-      app.config.assets.precompile += %w()
-    end
+
+    config.assets.paths << File.expand_path("../../assets/stylesheets/application", __FILE__)
+    config.assets.paths << File.expand_path("../../assets/javascripts/application", __FILE__)
   end
 end

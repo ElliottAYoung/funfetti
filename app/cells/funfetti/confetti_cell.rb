@@ -1,6 +1,10 @@
 module Funfetti
   class ConfettiCell < Funfetti::Cell
-    def show
+    def falling
+      render
+    end
+
+    def exploding
       render
     end
   end
