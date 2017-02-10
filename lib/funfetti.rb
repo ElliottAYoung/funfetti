@@ -1,5 +1,6 @@
 require "funfetti/engine"
+require "funfetti/railtie"
+require "funfetti/helper"
 
 module Funfetti
-  # Your code goes here...
 end
