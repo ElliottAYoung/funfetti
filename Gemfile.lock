@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    funfetti (0.1.0)
+    funfetti (0.5.0)
       cells-haml (~> 0.0.10)
       rails (>= 4)
       trailblazer-cells (~> 0.0.3)
@@ -134,4 +134,4 @@ DEPENDENCIES
   sqlite3
 
 BUNDLED WITH
-   1.13.7
+   1.14.5
